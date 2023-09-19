@@ -1,0 +1,68 @@
+body {
+    color: #282425 ;
+    background-color:bisque;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color:#756158;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic; 
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color:darkgoldenrod;
+    margin:  0;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    }
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}   
+
+h3 {
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+a {
+    font-style: italic;
+}
+
+.hlavicka {
+    background-color:blanchedalmond;
+    padding: 100px 30px;
+}
+
+.omne {
+    background-color:cornsilk;
+    padding-bottom: 30px;
+}
+
+.mojefotka {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+p {
+
+}
