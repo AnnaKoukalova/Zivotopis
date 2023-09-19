@@ -1,6 +1,6 @@
 body {
     color: #282425 ;
-    background-color:bisque;
+    background-color:darkturquoise;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     line-height: 1.5;
@@ -24,7 +24,7 @@ h3 {
 h1 {
     font-size: 80px;
     text-align: center;
-    color:darkgoldenrod;
+    color:#282425;
     margin:  0;
     text-shadow: 0 3px 10px rgba(0,0,0,0.7);
     }
@@ -45,12 +45,19 @@ a {
 }
 
 .hlavicka {
-    background-color:blanchedalmond;
-    padding: 100px 30px;
+    background-image:url(image/stetoskop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 30px;
+}
+    
+.hlavicka h2 {
+    color:#282425;
 }
 
 .omne {
-    background-color:cornsilk;
+    background-color:turquoise;
     padding-bottom: 30px;
 }
 
@@ -63,6 +70,50 @@ a {
     margin-left: 50px;
 }
 
-p {
+.kariera {
+    background-color:mediumturquoise;
+}
 
+.kariera h2 {
+    text-align: center;
+}
+
+.dovednosti {
+    background-color:mediumturquoise;
+}
+    
+
+.vzdelani {
+    background-color:turquoise;
+}
+
+.paticka {
+
+    padding: 20px 0;
+    text-align: center;
+}
+
+.zajmy {
+       background-color:turquoise;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+th,
+td {
+     border-bottom: 1px solid black;
+     text-align: left;
+     padding: 10px 0;
+}
+
+.dobazamestnani {
+    text-align: right;
+    padding-left: 50px;
+}
+
+table {
+    border-spacing: 0;
 }
